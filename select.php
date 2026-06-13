@@ -62,7 +62,7 @@
 <?php
     if(!empty($nome)){
 ?>
-    <form method="post" action="">
+    <form method="post" action="update.php">
         <p>
             <input type="hidden" name="id" value="<?php echo $id; ?>">
             
